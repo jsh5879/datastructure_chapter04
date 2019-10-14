@@ -101,6 +101,7 @@
   <ItemGroup>
     <ClCompile Include="chainiterator.cpp" />
     <ClCompile Include="circularDoublyList.cpp" />
+    <ClCompile Include="genList.cpp" />
     <ClCompile Include="getnode.cpp" />
     <ClCompile Include="listiterator.cpp" />
     <ClCompile Include="listIteratorTest.cpp" />

@@ -42,6 +42,9 @@
     <ClCompile Include="circularDoublyList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="genList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="listiterator.h">
