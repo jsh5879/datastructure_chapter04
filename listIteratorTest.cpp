@@ -1,12 +1,17 @@
+/* listIteratorTest.cpp - List Iterator를 사용
+- Add()에서 학생들이 실습할 코드로 1) add된 데이터를 last node로 추가하는 코드 작성, 2)입력된 값이 sort되도록 add()를 수정
+- delete() 수정 - 현재 동작하지 않음
+- sum(xi * xi+5)를 구하는 코드 작성
+*/
 int sum(const List& l)
 {
 	ListIterator li(l);
 	if (!li.NotNull()) return 0;
 	int retvalue = *li.First();
 	while (li.NextNotNull() == true) {
-		++li;
+		++li;//current를 증가시킴
 		//retvalue = retvalue + *li.Next();
-		retvalue = retvalue + *li.GetCurrent();
+		retvalue = retvalue + *li.GetCurrent();//현재 current가 가르키는 node의 값을 가져옴
 	}
 	return retvalue;
 }
