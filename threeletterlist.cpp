@@ -1,7 +1,8 @@
+/* threeletterlist.cpp - nested class*/
 //program 4.1: composite classes
-#include <iostream.h>
-
-enum Boolean { FALSE, TRUE };
+/* 학생들이 class에 직접 함수를 만드는 실습 */
+#include <iostream>
+using namespace std;
 
 class ThreeLetterList;
 
@@ -11,8 +12,6 @@ private:
 	char data[3];
 	ThreeLetterNode* link;
 };
-
-enum Boolean { FALSE, TRUE };
 
 class ThreeLetterList {
 private:
@@ -24,8 +23,15 @@ private:
 	ThreeLetterNode* first;
 public:
 	void test();
+	void add(char, char, char);
+	void display();
 };
-
+void ThreeLetterList::add(char a, char b, char c) {
+	//학생들이 실습하는 것이 필요
+}
+void ThreeLetterList::display() {
+	////학생들이 실습하는 것이 필요
+}
 void ThreeLetterList::test()
 {
 	ThreeLetterNode* f = new ThreeLetterNode;
@@ -35,8 +41,10 @@ void ThreeLetterList::test()
 	f->link = 0;
 }
 
-main()
+int main(void)
 {
 	ThreeLetterList l;
 	l.test();
+	l.add('d', 'e', 'f');
+
 }

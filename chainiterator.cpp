@@ -1,8 +1,8 @@
+/* chainiterator.cpp - iterator class를 사용하는 실습 */
 //invert, concatenate
-// *************************************************************************
+
 #include <iostream>
 using namespace std;
-
 
 template<class T> class Chain; //forward declaration
 template<class T> class ChainIterator;
@@ -11,11 +11,7 @@ template<class T> class ChainNode {
 	friend class Chain<T>;
 	friend class ChainIterator<T>;
 public:
-	ChainNode(T element = 0)
-	{
-		data = element;
-		link = 0;
-	}
+	ChainNode(T element = 0);
 private:
 	T data;
 	ChainNode<T>* link;
@@ -117,7 +113,12 @@ private:
 	const Chain<T>& list; //refers to an existing list
 	ChainNode<T>* current; //points to a node in list
 };
-
+template<class T>
+class ChainNode<T>::ChainNode(T element)
+{
+	data = element;
+	link = 0;
+}
 template <class T>
 int Show(const Chain<T>& l) {
 	ChainIterator<T> li(l); //li is associated with list l
@@ -154,8 +155,6 @@ int main(void) {
 	Chain<int> a, b;
 	ChainIterator<int> cit(a);
 	int value;
-
-
 	do
 	{
 		cout << endl << "Select command:1: Add_a,2: Add_b, 3: printall, 4: Invert, 5: Concatenate, 6: Delete, 7: Sum, 8:Length, q: Quit" << endl;
