@@ -1,5 +1,3 @@
-//18.10.30 
-
 //Gen List
 //Devise a function that produces a gen list from the input l = (a,(b,c))
 /*
@@ -10,8 +8,6 @@
 4. reference count 사용하여 getnode, retnode 구현, gen list 반환 코드 구현 테스트
 */
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
 
 using namespace std;
 int GetData();

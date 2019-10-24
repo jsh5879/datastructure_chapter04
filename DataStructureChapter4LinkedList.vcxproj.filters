@@ -50,5 +50,11 @@
     <ClInclude Include="listiterator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="chain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="getnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

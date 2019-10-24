@@ -1,6 +1,5 @@
 #pragma once
 // class Node, List, ListIterator
-//18.10.16 수정본
 #include <iostream>
 using namespace std;
 
@@ -25,8 +24,10 @@ public:
 	List();
 	~List();
 	virtual void Add(int&);
-	virtual void Delete(int&);
+	virtual void Delete(int&);//주어진 x 값을 갖는 노드를 삭제
 	virtual void Show();
+	//int Length(); //count the number of nodes in a list
+	//void Merge(List&, List&);//the merged nodes in a sequential order
 private:
 	Node* first;
 };

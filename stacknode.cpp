@@ -1,9 +1,3 @@
-
-
-
-
-
-//10월 19일 실습2
 //Stack node & Queue Node
 #include <stdio.h>
 #include <iostream>

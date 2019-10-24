@@ -1,7 +1,4 @@
-
-
-
-12.Doubly Linked List Implementation with Pointers C++
+//12.Doubly Linked List Implementation with Pointers C++
 //circular doubly lists with head node 구현- 이코드를 수정하여 사용, 두개의 list를 만들고 list node에 정수 값이 sorted된 상태로 입력되게 하고, 두개의 list를 merge하여 합친 결과도 sorted list되게 한다. 
 #include <iostream>
 using namespace std;

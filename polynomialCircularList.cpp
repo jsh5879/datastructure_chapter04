@@ -1,5 +1,3 @@
-
-
 //program 4.25: Adding two polynomials, page 209
 // circular list를 사용한 version
 
@@ -58,7 +56,8 @@ private:
 	static ListNode<Type>* av;
 };
 
-ListNode<Term>* CircList<Term>::av = 0;
+//ListNode<Term>* CircList<Term>::av = 0;//static 사용시 초기화 방법
+ListNode<Term> CircList<Term>::av = 0;//오류 발생
 
 template <class Type>
 class CircListIterator {
