@@ -1,4 +1,4 @@
-﻿
+﻿#include "listiterator.h"
 Node::Node(int element = 0, Node* next = 0) {
 	num = element;
 	link = next;
