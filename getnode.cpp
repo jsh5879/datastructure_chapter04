@@ -36,7 +36,7 @@ int main(void) {
 			/*
 			/*
 		case '6':
-			a.Merge(b);
+			a.Merge(b);//a -> b, b ->a, a1, b1,b2, a2, a3, a4등으로 교대로 merge
 			break;
 			*/
 		case 'q':

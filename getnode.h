@@ -1,3 +1,7 @@
+/*
+1. head node가 없는 경우
+2. head node가 있는 경우에 구현
+*/
 #pragma once
 //getnode, retnode
 #include <iostream>
@@ -30,10 +34,24 @@ public:
 	ChainNode<T>* GetNode();
 	void RetNode(ChainNode<T>& x);
 	//void Merge(CircularChain<T>& b);
+	operator<<();
+	findMax();
 private:
 	static ChainNode<T>* av;
 	ChainNode<T>* last; //point to the last node
 };
+
+template<class T>
+class CircularChainIterator {
+public:
+	First();
+	Next();
+	NotNull();
+	NextNotNull();
+private:
+	ChainNode<T>* current;
+	ChainNode<T>* last;
+}
 
 template <class T>
 CircularChain<T>::~CircularChain() {}
