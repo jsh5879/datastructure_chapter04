@@ -56,5 +56,8 @@
     <ClInclude Include="getnode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="stacknode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
