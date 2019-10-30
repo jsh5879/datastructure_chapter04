@@ -63,6 +63,13 @@ template <class T>
 void Stack<T>::Add(const T y) {
 	top = new StackNode<T>(y, top);
 }
+template <class T>
+void Stack<T>::StackEmpty() {
+	if (top == 0)
+		cout << "Stack is empty" << endl;
+	else
+		cout << "Stack is non empty"<<endl;
+}
 
 template <class T>
 T* Stack<T>::Delete(T& retvalue)
@@ -94,4 +101,11 @@ T* Queue<T>::Delete(T& retvalue)
 	front = x->link;//remove front node
 	delete x;
 	return &retvalue;//return pointer to data
+}
+template <class T>
+void Queue<T>::QueueEmpty() {
+	if (top == 0)
+		cout << "Queue is empty" << endl;
+	else
+		cout << "Queue is non empty" << endl;
 }

@@ -1,2 +1,194 @@
-﻿stacknode.obj : error LNK2019: "private: void __cdecl Stack<int>::StackEmpty(void)" (?StackEmpty@?$Stack@H@@AEAAXXZ) 외부 기호(참조 위치: "public: int * __cdecl Stack<int>::Delete(int &)" (?Delete@?$Stack@H@@QEAAPEAHAEAH@Z) 함수)에서 확인하지 못했습니다.
-C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\x64\Debug\DataStructureChapter4LinkedList.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+﻿  polynomialListIterator.cpp
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228,1): error C2440: 'initializing': cannot convert from 'ChainIterator<T>' to 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228,1): error C2440:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228,1): error C2440:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228,1): error C2440:             T=Term<int>
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228,1): error C2440:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228,1): error C2440:         and
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228,1): error C2440:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228,1): error C2440:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228,1): error C2440:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228,1): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(225): message : while compiling class template member function 'Polynomial<int> Polynomial<int>::operator +(const Polynomial<int> &) const'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.cpp(67): message : see reference to function template instantiation 'Polynomial<int> Polynomial<int>::operator +(const Polynomial<int> &) const' being compiled
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.cpp(31): message : see reference to class template instantiation 'Polynomial<int>' being compiled
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(229,8): error C3203: 'Term': unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(230,1): error C2664: 'Polynomial<int>::Polynomial(Polynomial<int> &&)': cannot convert argument 1 from 'Chain<int> *' to 'const Polynomial<int> &'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(230,1): message : Reason: cannot convert from 'Chain<int> *' to 'const Polynomial<int>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(230,1): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(202,1): message : see declaration of 'Polynomial<int>::Polynomial'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(234,1): error C2839: invalid return type 'T *' for overloaded 'operator ->'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(234,1): error C2839:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(234,1): error C2839:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(234,1): error C2839:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(234,1): error C2839:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(234,1): error C2039: 'exp': is not a member of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(234,1): error C2039:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(234,1): error C2039:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(234,1): error C2039:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(234,1): error C2039:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message : see declaration of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(235,1): error C2839: invalid return type 'T *' for overloaded 'operator ->'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(235,1): error C2839:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(235,1): error C2839:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(235,1): error C2839:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(235,1): error C2839:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(235,1): error C2039: 'coef': is not a member of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(235,1): error C2039:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(235,1): error C2039:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(235,1): error C2039:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(235,1): error C2039:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message : see declaration of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2839: invalid return type 'T *' for overloaded 'operator ->'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2839:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2839:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2839:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2839:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2039: 'exp': is not a member of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2039:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2039:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2039:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2039:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message : see declaration of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2660: 'Term<T>::Set': function does not take 1 arguments
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2660:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2660:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2660:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(236,1): error C2660:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message : see declaration of 'Term<T>::Set'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(239,1): error C2839: invalid return type 'T *' for overloaded 'operator ->'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(239,1): error C2839:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(239,1): error C2839:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(239,1): error C2839:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(239,1): error C2839:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(239,1): error C2039: 'exp': is not a member of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(239,1): error C2039:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(239,1): error C2039:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(239,1): error C2039:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(239,1): error C2039:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message : see declaration of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2839: invalid return type 'T *' for overloaded 'operator ->'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2839:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2839:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2839:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2839:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2039: 'coef': is not a member of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2039:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2039:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2039:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2039:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message : see declaration of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2039: 'exp': is not a member of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2039:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2039:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2039:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2039:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message : see declaration of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2660: 'Term<T>::Set': function does not take 1 arguments
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2660:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2660:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2660:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(240,1): error C2660:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message : see declaration of 'Term<T>::Set'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2839: invalid return type 'T *' for overloaded 'operator ->'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2839:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2839:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2839:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2839:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2039: 'coef': is not a member of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2039:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2039:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2039:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2039:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message : see declaration of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2039: 'exp': is not a member of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2039:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2039:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2039:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2039:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message : see declaration of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2660: 'Term<T>::Set': function does not take 1 arguments
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2660:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2660:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2660:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(246,1): error C2660:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message : see declaration of 'Term<T>::Set'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2839: invalid return type 'T *' for overloaded 'operator ->'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2839:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2839:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2839:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2839:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2039: 'coef': is not a member of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2039:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2039:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2039:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2039:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message : see declaration of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2039: 'exp': is not a member of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2039:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2039:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2039:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2039:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message : see declaration of 'ChainIterator<T>'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(228): message :         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2660: 'Term<T>::Set': function does not take 1 arguments
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2660:         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2660:         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2660:             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(250,1): error C2660:         ]
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message : see declaration of 'Term<T>::Set'
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :         with
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :         [
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :             T=int
+C:\Users\vvbhh\OneDrive - pusan.ac.kr\소스코드\자료구조소스코드\datastructurechapter4\polynomialListIterator.h(14,7): message :         ]
