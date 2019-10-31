@@ -3,23 +3,23 @@
 #include <iostream>
 using namespace std;
 class DbList;
-
+class CircDbList;
 class DbListNode {
-	friend class DbList;
+	friend class CircDbList;
 private:
 	int data;
 	DbListNode* llink, * rlink;
 };
 
-
-
 class CircDbList {
 	friend class CircDbListIterator;
 public:
-	CircDbList() { first = new DbListNode; first->link = first; last = first; };
+	CircDbList() { first = new DbListNode; first->rlink = last; last->llink = first; };
 	CircDbList(const CircDbList&);
 	~CircDbList();
-	void Attach(Type);
+	void Attach(int);
+	void Delete(DbListNode*);
+	void Insert(DbListNode*, DbListNode*);
 private:
 	DbListNode* first;
 	DbListNode* last;

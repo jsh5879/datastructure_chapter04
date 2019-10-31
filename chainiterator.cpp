@@ -63,7 +63,7 @@ int MakeArray(const Chain<T>& l, int []) {
 }
 int main(void) {
 	int select;
-	ChainNode<int> nd;
+	//ChainNode<int> nd;
 	Chain<int> a, b;
 	ChainIterator<int> cit(a);
 	int value;
@@ -84,7 +84,7 @@ int main(void) {
 			cin >> value;
 			a.Add(value);
 			break;
-
+				
 			// Case 2 : Add new value to chain 'B'
 		case 2:
 			cout << "Add a new value: ";

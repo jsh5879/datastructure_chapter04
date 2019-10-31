@@ -56,8 +56,8 @@ private:
 	static ListNode<Type>* av;
 };
 
-//ListNode<Term>* CircList<Term>::av = 0;//static 사용시 초기화 방법
-ListNode<Term> CircList<Term>::av = 0;//오류 발생
+ListNode<Term>* CircList<Term>::av = 0;//static 사용시 초기화 방법
+//ListNode<Term> CircList<Term>::av = 0;//오류 발생
 
 template <class Type>
 class CircListIterator {
@@ -154,23 +154,25 @@ void CircList<Type>::Attach(Type k)
 
 
 //////////////Polynomial////////////////
-
+template <class Type>
 class Polynomial
 {
-	friend ostream& operator<<(ostream&, Polynomial&);//polynomial 출력
-	friend Polynomial operator+(const Polynomial&, const Polynomial&);//polynomial ADD()
 private:
 	CircList<Term> poly;
 public:
+	friend ostream& operator<<(ostream&, Polynomial&);//polynomial 출력
+	friend Polynomial operator+(const Polynomial&, const Polynomial&);//polynomial ADD()
 	Polynomial();//생성자 정의 필요-head node를 갖는 경우
 	void Add(Term e);
 	int GetData();
 };
-Polynomial::Polynomial()
+template <class Type>
+Polynomial<Type>::Polynomial()
 {
 	poly = 0;
 }
-int Polynomial::GetData() {
+template <class Type>
+int Polynomial<Type>::GetData() {
 	int i, degree;
 	float coef;
 	int expo;
@@ -188,13 +190,13 @@ int Polynomial::GetData() {
 	terms = finish - start + 1;
 	return 0;
 }
-
-void Polynomial::Add(Term e)
+template <class Type>
+void Polynomial<Type>::Add(Term e)
 {
 	poly.Attach(e);
 }
-
-ostream& operator<<(ostream& os, Polynomial& p)
+template <class Type>
+ostream& operator<<(ostream& os, Polynomial<Type>& p)
 {
 	os << p.poly;
 	return os;
@@ -206,13 +208,13 @@ char compare(int a, int b)
 	if (a < b) return '<';
 	return '>';
 }
-
-Polynomial operator+(const Polynomial& a, const Polynomial& b)
+template <class Type>
+Polynomial<Type> operator+(const Polynomial<Type>& a, const Polynomial<Type>& b)
 {
 	Term* p, * q, temp;
 	CircListIterator<Term> Aiter(a.poly);
 	CircListIterator<Term> Biter(b.poly);
-	Polynomial c;
+	Polynomial<Type> c;
 
 	p = Aiter.First();
 	q = Biter.First();
@@ -254,8 +256,8 @@ Polynomial operator+(const Polynomial& a, const Polynomial& b)
 
 int main()
 {
-	Polynomial p;
-	Polynomial* q = new Polynomial;
+	Polynomial<int> p;
+	Polynomial<int>* q = new Polynomial<int>;
 
 	Term e;
 	//화면에서 입력받아 생성하는 것으로 수정
@@ -272,18 +274,18 @@ int main()
 
 	cout << "output q" << endl << *q << endl;
 
-	Polynomial r = p + *q;
+	Polynomial<int> r = p + *q;
 	cout << "do: r = p + q" << endl << "output: \n" << r << endl;
 
 
 
-	Polynomial s;
+	Polynomial<int> s;
 	cout << "output s" << endl << s << endl;
 
-	Polynomial t = s + s;
+	Polynomial<int> t = s + s;
 	cout << "do: t = s + s" << endl << "output: \n" << t << endl;
 
-	Polynomial u = p + p;
+	Polynomial<int> u = p + p;
 	cout << "do: u = p + p" << endl << "output: \n" << u << endl;
 	delete q;
 
